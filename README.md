@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Objective-C related to comparing NSDecimalNumber objects using isEqualToNumber:.  The bug arises when comparing numbers created from different string representations, even if mathematically equivalent.  The solution provides a more robust comparison method.
